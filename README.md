@@ -33,7 +33,7 @@
 
 1. Hover over the **Prediction** menu option.
 2. Select either **CM1** or **PC4**.
-3. Fill in the form details and click the **Predict** button.
+3. Fill in the form details using sample.txt test data file available in the Application folder and click the **Predict** button.
 
 Upon clicking the **Predict** button, the system will display whether the software is defective or not.
 
