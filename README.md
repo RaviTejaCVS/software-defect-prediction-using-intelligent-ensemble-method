@@ -47,4 +47,3 @@ If an issue occurs after clicking the **Predict** button, follow these steps:
    pip install -r requirements.txt
    ```
 3. Try again now.
-```
