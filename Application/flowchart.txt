@@ -40,14 +40,3 @@ FrontEnd
 16. Trained model is used for prediction
 	- separately for the each dataset
 17. Final outcome is displayed through frontend
-
-
-Extension
-----------
-In the base paper the author mentioned to use different dataset for analysis software defect, with SMOTE oversampling and PSO based Feature Selection,
-analysis with ML models like RF, SVM, Naive Bayes, MLP and Ensemble of all models(Adaptive Voting) as Proposed model, and got 86.5%-CM1, 66%-JM1, 73.5%-MC2
-801%-MW1, 87%-PC1, 87.5%-PC3 and 90.4%-PC4
-As an extension we applied an ensemble method  combining the predictions of multiple individual models to produce a more robust and accurate final prediction. 
-However, we can further enhance the performance by exploring other ensemble techniques such as Stacking Classifier (DT + RF with LightGBM ) 
-which got 92.4%, 83.6%, 73.5%, 89.7%, 92.2%, 92.4%,93.5% for CM1, JM1, MC2,MW1, PC1, PC3 and PC4 respectively,
-As an extension we can build the front end using the flask framework for user testing and with user authentication.
